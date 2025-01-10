@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* building for mobile */
+body{
+    background-image: url(./images/Rectangle\ 26.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    font-family: inter, Arial, Helvetica, sans-serif;
+
+}
+.main .logo{
+    padding-top: 50px;
+    padding-left: 7rem;
+}
+.main h3{
+    font-weight: 750;
+    text-align: center;
+    font-size: 36px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 43.57px;
+    
+}
+.main h6{
+    font-weight: 600;
+    line-break: 29.05px;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main .btn-started{
+    margin-top: 12rem;
+    margin-left: 32px;
+    width: 20rem;
+    height: 50px;
+    border-radius: 40px;
+    color: blue;
+    border: white;
+    cursor: pointer;
+}
+
+@keyframes slideOutRight {
+    from {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    to {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  }
+  
+  /* Apply the animation when triggered */
+  .slide-out-right {
+    animation: slideOutRight 0.5s ease forwards;
+  }
+  

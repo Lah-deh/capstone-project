@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}body {
+    font-family: inter, Arial, Helvetica, sans-serif;
+    background: rgb(205, 208, 219);
+    height: 100vh;
+
+}
+.main{
+    background: rgba(255, 255, 255, 1);
+
+    margin-top: 12rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    border-radius: 20px;
+}
+#arrow-left{
+    border: 5px solid white;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-right: 20px;
+
+}
+.contain{
+    display: flex;
+    justify-content: flex-end;
+    gap: 140px;
+}
+.contain h5{
+    color: rgba(4, 27, 121, 1);
+    text-align: center;
+    /* margin-top: -25px; */
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.05px;
+}
+form{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+@keyframes slideOutRight {
+    from {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    to {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  }
+  
+  /* Apply the animation when triggered */
+  .slide-out-right {
+    animation: slideOutRight 0.5s ease forwards;
+  }

@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}body {
+    font-family: inter, Arial, Helvetica, sans-serif;
+    background: rgb(205, 208, 219);
+    margin-left: 25px;
+
+}
+#arrow-left{
+    border: 5px solid white;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.contain h5{
+    color: rgba(4, 27, 121, 1);
+    text-align: center;
+    margin-top: -25px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29.05px;
+}
+.one input{
+    width: 21rem;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 40px;
+    border: 1px solid rgba(199, 185, 185, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-left: 30px;
+
+}
+.input-box{
+    display: flex;
+    align-items: center;
+    gap: 110px;
+    border-radius: 40px;
+    width: 21rem;
+    height: 60px;
+    padding-left: 20px;
+    margin-top: 20px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-color: white;
+}
+.input-boxx{
+    display: flex;
+    align-items: center;
+    gap: 110px;
+    border-radius: 40px;
+    width: 21rem;
+    height: 60px;
+    padding-left: 20px;
+    margin-top: 20px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-color: white;
+}
+input{
+    background-color:  white;
+    border: 1px solid white;
+}
+.btn-signin{
+    background-color: rgba(4, 30, 134, 1);
+    color: white;
+    width: 21rem;
+    height: 50px;
+    border-radius: 40px;
+    margin-top: 20px;
+    border:rgba(0, 0, 0, 0.25);
+}
+.signin p{
+    text-align: center; 
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.73px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 30px;
+
+}
+.signin a{
+    color: rgba(4, 30, 134, 1);
+}
+.seperate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.line{
+    flex: 1;
+    height: 1px;
+    background-color: rgb(36, 35, 35);
+    margin: 0 10px;
+}
+.or{
+    color: #000;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.73px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.btn-goggle{
+    width:22rem;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    border: 2px solid rgba(199, 195, 195, 1);
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 19.36px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    gap: 50px;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 70px;
+
+}
+.btn-goggle img{
+    margin-left: -70px;
+}
+@keyframes slideOutRight {
+    from {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    to {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  }
+  
+  /* Apply the animation when triggered */
+  .slide-out-right {
+    animation: slideOutRight 0.5s ease forwards;
+  }
